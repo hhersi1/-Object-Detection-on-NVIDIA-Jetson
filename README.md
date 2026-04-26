@@ -27,7 +27,7 @@ cd YOLOv4
    - GUI
      - Power Icon in top right
      - Performance Options
-  - Terminal
+   - Terminal
 
 ```
 sudo nvpmodel -m 0
