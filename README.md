@@ -16,13 +16,13 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
 
 
 # How to install and run model
-1) Create and Open Directory
+### 1) Create and Open Directory
      ```
      mkdir YOLOv4
      cd YOLOv4
      ```
 
-3) Enable Highest Performance
+### 2) Enable Highest Performance
    - GUI
      - Power Icon in top right
      - Performance Options
@@ -32,16 +32,16 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
        sudo jetson_clocks
        ```
 
-3) Clone GitHub Repository
+### 3) Clone GitHub Repository
    ```
    git clone https://github.com/AlexeyAB/darknet.git
    ```
-4) Download Pre-Trained weights
+### 4) Download Pre-Trained weights
    ```
    wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
    ```
 
-5) Build GPU Version
+### 5) Build GPU Version
    ```
    sed -i 's/GPU=0/GPU=1/' Makefile
    sed -i 's/CUDNN=0/CUDNN=1/' Makefile
@@ -53,7 +53,7 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
    ```
 This builds and compiles the Darknet framework, It turns the CUDA source code into an executable the Jetson can run
 
-6) Build CPU Version (Optional)
+### 6) Build CPU Version (Optional)
    ```
    make clean
    sed -i 's/GPU=1/GPU=0/' Makefile
@@ -63,7 +63,7 @@ This builds and compiles the Darknet framework, It turns the CUDA source code in
    ```
 Only build this version for a comparison between CPU and GPU performance.
 
-7) Run Program
+### 7) Run Program
    ```
    ./darknetgpu detector demo cfg/coco.data cfg/yolov4-tiny.cfg yolov4-tiny.weights -c 0
    ```
@@ -76,7 +76,7 @@ Only build this version for a comparison between CPU and GPU performance.
 This runs the .exe file made from the previous step, in additon to the weights and classifier
 GPU and CPU are both ran through similar commands only changing the name of the .exe in the command line
 
-9) Close Program
+### 8) Close Program
    "esc" on your keyboard closes the program
 
 
