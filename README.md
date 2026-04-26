@@ -44,14 +44,14 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
    ```
 
 5) Build GPU Version
-  ```
-  sed -i 's/GPU=0/GPU=1/' Makefile
-  sed -i 's/CUDNN=0/CUDNN=1/' Makefile
-  sed -i 's/OPENCV=0/OPENCV=1/' Makefile
-  sed -i 's/LIBSO=0/LIBSO=1/' Makefile
-  sed -i 's/ARCH= -gencode arch=compute_30,code=sm_30/ARCH= -gencode arch=compute_87,code=sm_87/' Makefile
-  make -j$(nproc)
-  mv darknet darknet_gpu
-  ```
+   ```
+   sed -i 's/GPU=0/GPU=1/' Makefile
+   sed -i 's/CUDNN=0/CUDNN=1/' Makefile
+   sed -i 's/OPENCV=0/OPENCV=1/' Makefile
+   sed -i 's/LIBSO=0/LIBSO=1/' Makefile
+   sed -i 's/ARCH= -gencode arch=compute_30,code=sm_30/ARCH= -gencode arch=compute_87,code=sm_87/' Makefile
+   make -j$(nproc)
+   mv darknet darknetgpu
+   ```
 
    
