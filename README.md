@@ -23,4 +23,13 @@ mkdir YOLOv4
 cd YOLOv4
 ```
 
-2) 
+2) Enable Highest Performance
+   - Power Icon in top right
+   - Performance Options
+  or
+
+```
+sudo nvpmodel -m 0
+sudo jetson_clocks
+
+```
