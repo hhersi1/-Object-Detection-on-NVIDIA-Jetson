@@ -51,5 +51,6 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
    make -j$(nproc)
    mv darknet darknetgpu
    ```
+This builds and compiles the Darknet framework, It turns the CUDA source code into an executable the Jetson can run
 
    
