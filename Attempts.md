@@ -19,7 +19,7 @@ Our issue was the GitHub repository tutorial we were following required us to tr
 No troubleshooting done as once we realized the time requirement to train the model we decided to change models
 
 # YOLO11
-After a suggestion from a classmate to use YOLO11 due to it being simple to setup, we decided to continue with Object Detection using YOLO11
+After a suggestion from a classmate to use YOLO11 due to it being simple to setup, we decided to continue with Object Detection using YOLO11.
 We began following the GitHub repository steps but ran into an issue similar to what we found using DeepLab
 PyTorch version was mismatched and built for CUDA 13.0, whenever we used "pip install" it would only install packages for CUDA 13.0
 
