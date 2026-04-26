@@ -1,4 +1,4 @@
-# Object-Detection-on-NVIDIA-Jetson
+# Object-Detection-on-NVIDIA-Jetson (jamAI)
 This repository contains the workflow for the Object Detection inferencing on GPU edge device project for MENG 3540: Parallel Programming
 # Pretrained Model Chosen: YOLOv4
 YOLOv4 was developed by Alexey Bochkovskiy in 2020, is a real-time object detection model.
