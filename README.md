@@ -27,11 +27,10 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
      - Power Icon in top right
      - Performance Options
    - Terminal
-
-  ```
-  sudo nvpmodel -m 0
-  sudo jetson_clocks
-  ```
+       ```
+       sudo nvpmodel -m 0
+       sudo jetson_clocks
+       ```
 
 3) Clone GitHub Repository
    ```
