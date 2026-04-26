@@ -24,12 +24,13 @@ cd YOLOv4
 ```
 
 2) Enable Highest Performance
-   - Power Icon in top right
-   - Performance Options
-  or
+   a) GUI
+     - Power Icon in top right
+     - Performance Options
+  
+    b) Terminal
 
 ```
 sudo nvpmodel -m 0
 sudo jetson_clocks
-
 ```
