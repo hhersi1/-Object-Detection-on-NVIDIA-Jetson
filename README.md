@@ -4,7 +4,7 @@ This repository contains the workflow for the Object Detection inferencing on GP
 YOLOv4 was developed by Alexey Bochkovskiy in 2020, is a real-time object detection model.
 It builds upon previous YOLO versions by adding improvements such as Darknet as its backbone.
 
-YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learning library which is specially made for running convolutional neural networks. 
+YOLOv4 is implemented using the Darknet framework, it's a CUDA and C based deep learning library which is specially made for running convolutional neural networks. 
 
 # Requirements:
   - Windows 10/11 Computer
