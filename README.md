@@ -53,4 +53,32 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
    ```
 This builds and compiles the Darknet framework, It turns the CUDA source code into an executable the Jetson can run
 
+6) Build CPU Version (Optional)
+   ```
+   make clean
+   sed -i 's/GPU=1/GPU=0/' Makefile
+   sed -i 's/CUDNN=1/CUDNN=0/' Makefile
+   make -j$(nproc)
+   mv darknet darknetcpu
+   ```
+Only build this version for a comparison between CPU and GPU performance.
+
+7) Run Program
+   ```
+   ./darknetgpu detector demo cfg/coco.data cfg/yolov4-tiny.cfg yolov4-tiny.weights -c 0
+   ```
+   or
+
+   ```
+   ./darknetcpu detector demo cfg/coco.data cfg/yolov4-tiny.cfg yolov4-tiny.weights -c 0
+   ```
+   
+This runs the .exe file made from the previous step, in additon to the weights and classifier
+GPU and CPU are both ran through similar commands only changing the name of the .exe in the command line
+
+9) Close Program
+   "esc" on your keyboard closes the program
+
+
+
    
