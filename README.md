@@ -17,6 +17,6 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
 
 # How to install and run model
 1) Create directory for all files to be stored in
-   '''mkdir YOLOv4'''
-   '''cd YOLOv4'''
+ `  mkdir YOLOv4
+   cd YOLOv4`
 2)
