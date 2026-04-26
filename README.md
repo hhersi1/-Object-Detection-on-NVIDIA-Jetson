@@ -24,7 +24,7 @@ cd YOLOv4
 ```
 
 2) Enable Highest Performance
-   a) GUI
+    a) GUI
      - Power Icon in top right
      - Performance Options
   
