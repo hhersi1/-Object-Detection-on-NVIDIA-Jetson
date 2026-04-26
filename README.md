@@ -13,3 +13,7 @@ YOLOv4 is implemented using the Darknet framework, a C and CUDA-based deep learn
   - Python Compiler
   - Tensorflow 1
   - OpenCV 3
+
+
+# How to install and run model
+
