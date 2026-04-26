@@ -24,11 +24,10 @@ cd YOLOv4
 ```
 
 2) Enable Highest Performance
-   - a) GUI
+   - GUI
      - Power Icon in top right
      - Performance Options
-  
-    b) Terminal
+  - Terminal
 
 ```
 sudo nvpmodel -m 0
